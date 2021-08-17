@@ -1,3 +1,36 @@
 body {
+  background-color: rgb(123, 123, 224) !important;
   margin: 0;
+}
+#work {
+  width: 400px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+}
+#add-btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+}
+#add-btn:hover {
+  box-shadow: 1px 1px 8px 1px;
+}
+#middle-list {
+  list-style-type: none;
+  text-align: center;
+}
+#middle-list li {
+  width: 500px;
+  padding: 10px;
+  background-color: blue;
+}
+@media only screen and (min-width: 375px) {
+}
+
+@media only screen and (min-width: 1280px) {
+  #top-row {
+    margin-top: 60px;
+  }
 }
