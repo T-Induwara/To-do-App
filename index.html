@@ -6,14 +6,17 @@
         <title>To-do App | By T.Induwara</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div class="row" id="top-row">
-                <div class="col-sm-8 d-flex align-items-center justify-content-center" id="left-col">
-                    <input type="text" id="work" name="work">
+                <div class="col-sm-6 d-flex align-items-center justify-content-center" id="left-col">
+                    <input type="text" id="work" name="work" onfocus="this.value=''" value="Enter your task here">
                 </div>
-                <div class="col-sm-4 d-flex align-items-center justify-content-center" id="right-col">
+                <div class="col-sm-6 d-flex align-items-center justify-content-center" id="right-col">
                     <button id="add-btn">Add List Item</button>
                 </div>
             </div>
@@ -22,10 +25,11 @@
                     <ul id="middle-list">
                         <li>You can add items like this one.</li>
                         <li>ex: Do my frontend course.</li>
-                        <li>You can add items like this one too.</li>
-                        <li>ex: Do my adobe XD course.</li>
                     </ul>
                 </div>
+            </div>
+            <div class="footer">
+                <h4 class="f-text">Developed by <a href="https://www.linkedin.com/in/t-induwara/" target="_blank">T.Induwara</a></h4>
             </div>
         </dic>
         

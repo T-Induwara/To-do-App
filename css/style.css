@@ -7,12 +7,14 @@ body {
   );
   margin: 0;
   background-size: cover;
+  height: 100vh;
 }
 #work {
   width: 400px;
   height: 50px;
   border: none;
   border-radius: 20px;
+  text-align: center;
 }
 #work:focus {
   box-shadow: 1px 1px 8px 1px rgb(107, 107, 107);
@@ -28,7 +30,7 @@ body {
   box-shadow: 1px 1px 8px 1px rgb(155, 155, 155);
 }
 .btn-click {
-  box-shadow: 1px 1px 8px 1px red;
+  box-shadow: 1px 1px 8px 1px rgb(68, 68, 68);
 }
 
 #middle-list {
@@ -44,6 +46,13 @@ body {
   background-color: rgba(255, 255, 255, 0.274);
   color: rgb(29, 29, 29);
 }
+.f-text {
+  font-family: "Poiret One", cursive;
+  color: white;
+}
+.f-text a {
+  color: white;
+}
 @media only screen and (min-width: 375px) {
   #top-row {
     margin-top: 60px;
@@ -51,9 +60,18 @@ body {
   #left-col {
     margin-bottom: 10px;
   }
+  #middle-list {
+    margin-left: -30px;
+  }
   #middle-list li {
     width: 300px;
-    margin-left: -30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .f-text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
   }
 }
 
@@ -63,5 +81,12 @@ body {
   }
   #middle-list li {
     width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .f-text {
+    font-size: 20px;
+    margin-bottom: 100px;
+    text-align: center;
   }
 }
