@@ -1,5 +1,10 @@
 body {
-  background-color: rgb(123, 123, 224) !important;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    120deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
   margin: 0;
 }
 #work {
@@ -7,6 +12,10 @@ body {
   height: 50px;
   border: none;
   border-radius: 20px;
+}
+#work:focus {
+  box-shadow: 1px 1px 8px 1px rgb(107, 107, 107);
+  outline: none;
 }
 #add-btn {
   width: 200px;
@@ -18,19 +27,35 @@ body {
   box-shadow: 1px 1px 8px 1px;
 }
 #middle-list {
+  margin-top: 40px;
   list-style-type: none;
   text-align: center;
 }
 #middle-list li {
-  width: 500px;
-  padding: 10px;
-  background-color: blue;
+  display: inline-block;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.274);
+  color: rgb(29, 29, 29);
 }
 @media only screen and (min-width: 375px) {
+  #top-row {
+    margin-top: 60px;
+  }
+  #left-col {
+    margin-bottom: 10px;
+  }
+  #middle-list li {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
   #top-row {
     margin-top: 60px;
+  }
+  #middle-list li {
+    width: 600px;
   }
 }
