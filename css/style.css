@@ -6,6 +6,7 @@ body {
     rgba(148, 187, 233, 1) 100%
   );
   margin: 0;
+  background-size: cover;
 }
 #work {
   width: 400px;
@@ -48,6 +49,7 @@ body {
   }
   #middle-list li {
     width: 300px;
+    margin-left: -30px;
   }
 }
 
