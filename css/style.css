@@ -24,9 +24,13 @@ body {
   border: none;
   border-radius: 20px;
 }
-#add-btn:hover {
-  box-shadow: 1px 1px 8px 1px;
+.btn-hover {
+  box-shadow: 1px 1px 8px 1px rgb(155, 155, 155);
 }
+.btn-click {
+  box-shadow: 1px 1px 8px 1px red;
+}
+
 #middle-list {
   margin-top: 40px;
   list-style-type: none;
