@@ -21,12 +21,18 @@ btn.onmouseup = function(){
     btn.classList.remove("btn-click");
 }
 btn.onclick = function(){
-    var newItem = document.createElement("li");
-    var textNode = document.createTextNode(userInput.value);
-    newItem.appendChild(textNode);
+    if(userInput.value !== undefined && userInput.value !== null && userInput.value !== ""){
+        var newItem = document.createElement("li");
+        var textNode = document.createTextNode(userInput.value);
+        newItem.appendChild(textNode);
 
-    list.appendChild(newItem);
-    console.log(list.childElementCount);
+        list.appendChild(newItem);
+        console.log(list.childElementCount);
 
-    userInput.value="";
+        userInput.value="";
+    }
+    else{
+        alert("Please enter a task to add.")
+    }
+    
 }

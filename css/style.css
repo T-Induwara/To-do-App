@@ -48,10 +48,14 @@ body {
 }
 .f-text {
   font-family: "Poiret One", cursive;
-  color: white;
+  font-weight: 700;
+  color: rgb(46, 46, 46);
 }
 .f-text a {
-  color: white;
+  color: rgb(46, 46, 46);
+}
+.f-text a:hover {
+  color: rgb(121, 120, 120);
 }
 @media only screen and (min-width: 375px) {
   #top-row {
