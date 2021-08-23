@@ -1,7 +1,6 @@
 console.log("Script loaded!");
 
 var userInput = document.getElementById("work");
-var inputText = userInput.innerHTML;
 
 var btn = document.getElementById("add-btn");
 
