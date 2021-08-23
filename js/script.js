@@ -24,9 +24,11 @@ btn.onclick = function(){
         var newItem = document.createElement("li");
         var textNode = document.createTextNode(userInput.value);
         newItem.appendChild(textNode);
+        newItem.id = "li-" + (list.childElementCount + 1);
 
         list.appendChild(newItem);
         console.log(list.childElementCount);
+
 
         userInput.value="";
     }
